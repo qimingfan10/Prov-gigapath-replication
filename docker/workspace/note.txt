@@ -1,0 +1,4 @@
+demo文件夹下面、finetune文件夹下面各有一个微调后的预测代码
+运行预训练：查看预训练.pdf，数据集下载：cd data 后 sh down_data.sh
+运行微调：查看微调.pdf
+解决
