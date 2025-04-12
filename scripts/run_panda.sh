@@ -2,7 +2,7 @@
 TASKCFG=finetune/task_configs/panda.yaml
 DATASETCSV=dataset_csv/PANDA/PANDA.csv
 PRESPLITDIR=dataset_csv/PANDA/ # Use the predefined split
-ROOTPATH=${1-:data/dinov2_features/h5_files}
+ROOTPATH=GigaPath_PANDA_embeddings/h5_files
 MAX_WSI_SIZE=250000  # Maximum WSI size in pixels for the longer side (width or height).
 TILE_SIZE=256
 # Model settings

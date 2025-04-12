@@ -19,7 +19,7 @@ def get_finetune_params():
     parser.add_argument('--max_wsi_size',   type=int, default=262144, help='Maximum WSI size in pixels for the longer side (width or height).')
 
     # model settings
-    parser.add_argument('--model_arch',     type=str, default='longnet_enc12l768d')
+    parser.add_argument('--model_arch',     type=str, default='gigapath_slide_enc12l768d')
     parser.add_argument('--input_dim',      type=int, default=1536, help='Dimension of input tile embeddings')
     parser.add_argument('--latent_dim',     type=int, default=768, help='Hidden dimension of the slide encoder')
     parser.add_argument('--feat_layer',     type=str, default='11', help='The layers from which embeddings are fed to the classifier, e.g., 5-11 for taking out the 5th and 11th layers')
